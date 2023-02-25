@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/spockfish/websocket"
-	"github.com/spockfish/internal/errd"
+	"github.com/spockfish/websocket/internal/errd"
 	"github.com/spockfish/websocket/internal/test/assert"
 	"github.com/spockfish/websocket/internal/test/wstest"
 )
