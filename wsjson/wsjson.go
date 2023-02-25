@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/bpool"
-	"nhooyr.io/websocket/internal/errd"
+	"github.com/spockfish/websocket"
+	"github.com/spockfish/websocket/internal/bpool"
+	"github.com/spockfish/websocket/internal/errd"
 )
 
 // Read reads a JSON message from c into v.

@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/errd"
-	"nhooyr.io/websocket/internal/test/assert"
-	"nhooyr.io/websocket/internal/test/wstest"
+	"github.com/spockfish/websocket"
+	"github.com/spockfish/internal/errd"
+	"github.com/spockfish/websocket/internal/test/assert"
+	"github.com/spockfish/websocket/internal/test/wstest"
 )
 
 var excludedAutobahnCases = []string{
